@@ -6,84 +6,84 @@
   "results": [
     {
       "id": "warrior", "code": "WARR", "keyword": "전사", "character": "브릭", "symbol": "◆", "accent": "#ff5a36",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 0, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 0, "columns": 4, "rows": 3 },
       "title": "전사 · 돌파 대장", "subtitle": "복잡한 건 됐고, 일단 길부터 여는 행동파.",
       "tags": ["정면승부", "행동먼저", "든든한체력"],
       "traits": [["모험 스타일", "문이 잠겼다면 손잡이보다 어깨가 먼저 나가요."], ["파티 역할", "모두가 망설일 때 첫발을 떼는 선봉장."], ["주의할 점", "함정인지 확인할 3초 정도는 남겨 두기."]]
     },
     {
       "id": "knight", "code": "KNIGHT", "keyword": "나이트", "character": "로언", "symbol": "◇", "accent": "#2457ff",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 1, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 1, "columns": 4, "rows": 3 },
       "title": "나이트 · 약속 수호자", "subtitle": "내 사람과 약속은 끝까지 지키는 원칙파.",
       "tags": ["책임감", "정석플레이", "신뢰만렙"],
       "traits": [["모험 스타일", "퀘스트 설명을 끝까지 읽고 정석대로 출발해요."], ["파티 역할", "흔들릴 때 중심을 잡아 주는 믿음직한 방패."], ["주의할 점", "가끔은 계획 밖의 지름길도 재미있을 수 있어요."]]
     },
     {
       "id": "healer", "code": "HEAL", "keyword": "힐러", "character": "루미", "symbol": "＋", "accent": "#00a878",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 2, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 2, "columns": 4, "rows": 3 },
       "title": "힐러 · 파티 회복소", "subtitle": "누가 지쳤는지 누구보다 먼저 알아채는 사람.",
       "tags": ["눈치백단", "회복담당", "다정한한마디"],
       "traits": [["모험 스타일", "보물보다 파티원 체력바를 먼저 확인해요."], ["파티 역할", "분위기와 체력을 동시에 살리는 회복 담당."], ["주의할 점", "내 체력바도 가끔은 꼭 확인하기."]]
     },
     {
       "id": "swordsman", "code": "BLADE", "keyword": "검사", "character": "켄", "symbol": "／", "accent": "#6d5bd0",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 3, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 3, "columns": 4, "rows": 3 },
       "title": "검사 · 한끗 장인", "subtitle": "크게 휘두르기보다 정확한 한 번을 노리는 집중파.",
       "tags": ["정교함", "몰입모드", "깔끔한마무리"],
       "traits": [["모험 스타일", "기술 하나를 골라도 제대로 익힌 뒤 움직여요."], ["파티 역할", "복잡한 상황을 한 번에 정리하는 해결사."], ["주의할 점", "완벽한 타이밍을 기다리다 출발을 놓치지 않기."]]
     },
     {
       "id": "mage", "code": "MAGE", "keyword": "마법사", "character": "미르", "symbol": "✦", "accent": "#6d5bd0",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 4, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 4, "columns": 4, "rows": 3 },
       "title": "마법사 · 상상 설계자", "subtitle": "남들이 못 본 가능성을 먼저 떠올리는 아이디어형.",
       "tags": ["상상력", "큰그림", "아이디어폭발"],
       "traits": [["모험 스타일", "평범한 열쇠보다 새로운 주문을 만들어 봐요."], ["파티 역할", "막힌 길에 전혀 다른 선택지를 꺼내는 브레인."], ["주의할 점", "주문 설명은 짧게, 실행은 빠르게."]]
     },
     {
       "id": "archer", "code": "ARROW", "keyword": "궁수", "character": "아로", "symbol": "→", "accent": "#00a878",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 5, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 5, "columns": 4, "rows": 3 },
       "title": "궁수 · 거리 조절자", "subtitle": "한발 물러서서 흐름을 읽고 정확히 움직이는 관찰파.",
       "tags": ["거리감각", "상황판단", "정확한선택"],
       "traits": [["모험 스타일", "높은 곳에서 지형부터 훑고 안전한 길을 골라요."], ["파티 역할", "위험을 먼저 발견하고 방향을 알려 주는 눈."], ["주의할 점", "완벽한 시야가 없어도 가끔은 내려가 보기."]]
     },
     {
       "id": "rogue", "code": "ROGUE", "keyword": "로그", "character": "픽", "symbol": "⌁", "accent": "#121212",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 6, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 6, "columns": 4, "rows": 3 },
       "title": "로그 · 지름길 탐정", "subtitle": "정문보다 숨겨진 버튼이 더 궁금한 재치파.",
       "tags": ["눈썰미", "임기응변", "비밀통로"],
       "traits": [["모험 스타일", "다들 문을 볼 때 벽 뒤의 스위치를 찾아요."], ["파티 역할", "규칙 사이 빈틈에서 가장 빠른 답을 찾는 해결사."], ["주의할 점", "재미있는 지름길이 항상 안전한 건 아니에요."]]
     },
     {
       "id": "bard", "code": "BARD", "keyword": "바드", "character": "멜로", "symbol": "♪", "accent": "#ef476f",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 7, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 7, "columns": 4, "rows": 3 },
       "title": "바드 · 분위기 메이커", "subtitle": "위기에도 웃을 거리를 찾아 파티를 살리는 흥부자.",
       "tags": ["드립장착", "분위기반전", "이야기수집"],
       "traits": [["모험 스타일", "몬스터를 만나도 별명부터 지어 줘요."], ["파티 역할", "지친 순간을 다시 재미있는 장면으로 바꾸는 사람."], ["주의할 점", "보스전 시작 전에는 한 곡만 부르기."]]
     },
     {
       "id": "alchemist", "code": "ALCH", "keyword": "연금술사", "character": "포션", "symbol": "⚗", "accent": "#ffc928",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 8, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 8, "columns": 4, "rows": 3 },
       "title": "연금술사 · 조합 실험가", "subtitle": "서로 다른 취향을 섞어 새 답을 만드는 실험파.",
       "tags": ["조합천재", "호기심", "직접실험"],
       "traits": [["모험 스타일", "아이템 설명보다 직접 섞어 본 결과를 믿어요."], ["파티 역할", "평범한 재료로 예상 밖의 해결책을 만드는 제작자."], ["주의할 점", "정체 모를 병은 파티원에게 먼저 권하지 않기."]]
     },
     {
       "id": "summoner", "code": "CALL", "keyword": "소환사", "character": "노아", "symbol": "◎", "accent": "#2457ff",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 9, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 9, "columns": 4, "rows": 3 },
       "title": "소환사 · 팀 조합가", "subtitle": "혼자 다 하기보다 잘하는 존재를 모으는 연결파.",
       "tags": ["팀플레이", "적재적소", "연결의힘"],
       "traits": [["모험 스타일", "문제마다 딱 맞는 동료를 불러 함께 해결해요."], ["파티 역할", "각자의 장점을 발견해 최고의 조합을 만드는 리더."], ["주의할 점", "소환하기 전에 본인 의견도 한 번 말하기."]]
     },
     {
       "id": "guardian", "code": "GUARD", "keyword": "가디언", "character": "바위", "symbol": "▣", "accent": "#00a878",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 10, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 10, "columns": 4, "rows": 3 },
       "title": "가디언 · 묵직한 버팀목", "subtitle": "조용하지만 끝까지 자리를 지키는 안정파.",
       "tags": ["든든함", "꾸준함", "위기방어"],
       "traits": [["모험 스타일", "화려한 보물보다 안전한 귀환을 먼저 챙겨요."], ["파티 역할", "급한 순간에도 흔들리지 않는 파티의 중심."], ["주의할 점", "늘 버티기만 하지 말고 도움도 요청하기."]]
     },
     {
       "id": "dragonrider", "code": "DRGN", "keyword": "드래곤라이더", "character": "라온", "symbol": "△", "accent": "#ff5a36",
-      "sprite": { "src": "./assets/fantasy-types.svg", "index": 11, "columns": 4, "rows": 3 },
+      "sprite": { "src": "./assets/fantasy-types.png", "index": 11, "columns": 4, "rows": 3 },
       "title": "드래곤라이더 · 스케일 끝판왕", "subtitle": "작게 고민하기보다 멀리 날아 판을 바꾸는 대담파.",
       "tags": ["대담함", "높은시야", "큰모험"],
       "traits": [["모험 스타일", "다들 길을 찾을 때 하늘로 올라 전체 지도를 봐요."], ["파티 역할", "불가능해 보이는 목표를 진짜 모험으로 만드는 추진자."], ["주의할 점", "멋진 이륙 전에 함께 탈 사람을 확인하기."]]
