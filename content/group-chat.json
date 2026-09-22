@@ -6,7 +6,12 @@
   "results": [
     {
       "id": "spark",
-      "title": "텐션 발전소",
+      "code": "SPARK",
+      "keyword": "점화형",
+      "character": "스파키",
+      "sprite": { "src": "./assets/group-types.png", "index": 0, "columns": 3, "rows": 2 },
+      "accent": "#ff5a36",
+      "title": "점화형 · 텐션 발전소",
       "symbol": "✳",
       "subtitle": "조용한 단톡방도 당신이 들어오면 다시 움직여요.",
       "tags": [
@@ -31,7 +36,12 @@
     },
     {
       "id": "planner",
-      "title": "약속 설계자",
+      "code": "PLAN",
+      "keyword": "추진형",
+      "character": "플래니",
+      "sprite": { "src": "./assets/group-types.png", "index": 1, "columns": 3, "rows": 2 },
+      "accent": "#2457ff",
+      "title": "추진형 · 약속 설계자",
       "symbol": "▦",
       "subtitle": "“그래서 언제 만나?”를 진짜 약속으로 바꾸는 사람.",
       "tags": [
@@ -56,7 +66,12 @@
     },
     {
       "id": "listener",
-      "title": "마음 충전소",
+      "code": "CARE",
+      "keyword": "공감형",
+      "character": "하티",
+      "sprite": { "src": "./assets/group-types.png", "index": 2, "columns": 3, "rows": 2 },
+      "accent": "#ef476f",
+      "title": "공감형 · 마음 수호자",
       "symbol": "♡",
       "subtitle": "짧은 답장에도 다정함이 묻어나는, 우리 방의 온기.",
       "tags": [
@@ -81,7 +96,12 @@
     },
     {
       "id": "curator",
-      "title": "정보 큐레이터",
+      "code": "PICK",
+      "keyword": "큐레이션형",
+      "character": "픽키",
+      "sprite": { "src": "./assets/group-types.png", "index": 3, "columns": 3, "rows": 2 },
+      "accent": "#ffc928",
+      "title": "큐레이션형 · 취향 레이더",
       "symbol": "⌕",
       "subtitle": "당신의 저장 목록은 보물창고.",
       "tags": [
@@ -106,7 +126,12 @@
     },
     {
       "id": "observer",
-      "title": "조용한 관찰자",
+      "code": "WATCH",
+      "keyword": "관찰형",
+      "character": "루키",
+      "sprite": { "src": "./assets/group-types.png", "index": 4, "columns": 3, "rows": 2 },
+      "accent": "#6d5bd0",
+      "title": "관찰형 · 조용한 레이더",
       "symbol": "◉",
       "subtitle": "말수는 적어도 놓치는 건 없어요. 한마디의 존재감!",
       "tags": [
@@ -131,7 +156,12 @@
     },
     {
       "id": "wanderer",
-      "title": "즉흥 탐험가",
+      "code": "GO",
+      "keyword": "탐험형",
+      "character": "고고",
+      "sprite": { "src": "./assets/group-types.png", "index": 5, "columns": 3, "rows": 2 },
+      "accent": "#00a878",
+      "title": "탐험형 · 즉흥 모험가",
       "symbol": "↗",
       "subtitle": "별생각 없이 던진 한마디가 새로운 추억의 시작.",
       "tags": [
@@ -153,26 +183,52 @@
           "지금 나올 수 있어? 오늘 뭔가 재밌을 것 같아!"
         ]
       ]
+    },
+    {
+      "id": "mediator",
+      "code": "PEACE",
+      "keyword": "중재형",
+      "character": "피스",
+      "symbol": "＝",
+      "sprite": { "src": "./assets/extra-types.png", "index": 0, "columns": 2, "rows": 2 },
+      "accent": "#00a878",
+      "title": "중재형 · 평화 조율자",
+      "subtitle": "갈린 의견 사이에서 모두가 웃을 답을 찾는 사람.",
+      "tags": ["분위기수습", "중간지점", "말센스"],
+      "traits": [["나의 역할", "서로 다른 말을 정리해 공통점을 찾아요."], ["이럴 때 빛나요", "메뉴나 약속을 두고 의견이 팽팽하게 갈릴 때."], ["친구에게 한마디", "둘 다 좋은데, 이렇게 섞어 보면 어때?"]]
+    },
+    {
+      "id": "archivist",
+      "code": "MEMO",
+      "keyword": "기록형",
+      "character": "모리",
+      "symbol": "▤",
+      "sprite": { "src": "./assets/extra-types.png", "index": 1, "columns": 2, "rows": 2 },
+      "accent": "#ffc928",
+      "title": "기록형 · 추억 보관자",
+      "subtitle": "사진과 명대사를 차곡차곡 남기는 우리 방의 기억.",
+      "tags": ["사진담당", "추억소환", "기록본능"],
+      "traits": [["나의 역할", "흘러간 장면을 다시 꺼낼 수 있게 남겨 둬요."], ["이럴 때 빛나요", "예전 사진이나 약속 기록이 갑자기 필요할 때."], ["친구에게 한마디", "잠깐, 이건 나중에 꼭 다시 봐야 해!"]]
     }
   ],
   "questions": [
     {
-      "text": "읽지 않은 메시지 128개. 제일 먼저?",
+      "text": "메시지 128개! 먼저?",
       "options": [
         {
-          "text": "재밌는 얘기부터 찾아서 리액션",
+          "text": "웃긴 부분 찾기",
           "scores": {
             "spark": 1
           }
         },
         {
-          "text": "결정된 일정이 있는지 확인",
+          "text": "약속만 확인",
           "scores": {
             "planner": 1
           }
         },
         {
-          "text": "무슨 일이 있었는지 차근차근 읽기",
+          "text": "처음부터 읽기",
           "scores": {
             "observer": 1
           }
@@ -180,22 +236,22 @@
       ]
     },
     {
-      "text": "친구가 “오늘 진짜 힘들었다”라고 하면?",
+      "text": "친구가 “오늘 힘들었다” 하면?",
       "options": [
         {
-          "text": "무슨 일이야? 얘기 들어줄게",
+          "text": "일단 들어주기",
           "scores": {
             "listener": 1
           }
         },
         {
-          "text": "기분 전환할 만한 영상 보내기",
+          "text": "웃긴 영상 보내기",
           "scores": {
             "curator": 1
           }
         },
         {
-          "text": "바람 쐬러 잠깐 나갈래?",
+          "text": "밖으로 호출",
           "scores": {
             "wanderer": 1
           }
@@ -203,45 +259,45 @@
       ]
     },
     {
-      "text": "모임 장소가 30분째 안 정해진다.",
+      "text": "메뉴가 30분째 안 정해진다.",
       "options": [
         {
-          "text": "선택지 세 개로 정리해서 투표",
+          "text": "중간 취향 찾기",
+          "scores": {
+            "mediator": 2
+          }
+        },
+        {
+          "text": "지난 맛집 꺼내기",
+          "scores": {
+            "archivist": 2
+          }
+        },
+        {
+          "text": "투표 열기",
           "scores": {
             "planner": 1
-          }
-        },
-        {
-          "text": "저장해 둔 맛집 링크 꺼내기",
-          "scores": {
-            "curator": 1
-          }
-        },
-        {
-          "text": "너희가 정하면 맞춰 갈게",
-          "scores": {
-            "observer": 1
           }
         }
       ]
     },
     {
-      "text": "단톡방에 처음 들어간 나의 첫 메시지는?",
+      "text": "새 단톡방 첫마디는?",
       "options": [
         {
-          "text": "반가워요! 이모티콘으로 인사 폭격",
+          "text": "이모티콘 폭격",
           "scores": {
             "spark": 1
           }
         },
         {
-          "text": "불러 줘서 고마워요, 반가워요",
+          "text": "반갑다고 인사",
           "scores": {
             "listener": 1
           }
         },
         {
-          "text": "혹시 오늘 만나는 분 있어요?",
+          "text": "바로 약속 잡기",
           "scores": {
             "wanderer": 1
           }
@@ -249,45 +305,45 @@
       ]
     },
     {
-      "text": "친구들과 여행을 떠나기 전 나는?",
+      "text": "여행 전날 나는?",
       "options": [
         {
-          "text": "동선과 예약 시간을 정리한다",
+          "text": "일정표 정리",
           "scores": {
             "planner": 1
           }
         },
         {
-          "text": "갈 만한 숨은 명소를 모은다",
+          "text": "숨은 곳 저장",
           "scores": {
             "curator": 1
           }
         },
         {
-          "text": "일단 출발! 현장에서 찾는 재미",
+          "text": "사진 폴더 비우기",
           "scores": {
-            "wanderer": 1
+            "archivist": 2
           }
         }
       ]
     },
     {
-      "text": "내가 단톡방에 보내는 사진은 주로?",
+      "text": "단톡방에 올리는 사진은?",
       "options": [
         {
-          "text": "지금 안 보내면 아쉬운 웃긴 장면",
+          "text": "밈 각 나온 장면",
           "scores": {
             "spark": 1
           }
         },
         {
-          "text": "친구가 좋아할 것 같은 작은 발견",
+          "text": "친구 잘 나온 사진",
           "scores": {
             "listener": 1
           }
         },
         {
-          "text": "꼭 필요할 때만 보내는 한 장",
+          "text": "진짜 필요한 한 장",
           "scores": {
             "observer": 1
           }
@@ -295,114 +351,45 @@
       ]
     },
     {
-      "text": "대화가 잠깐 어색해졌을 때 나는?",
+      "text": "대화가 잠깐 어색하다.",
       "options": [
         {
-          "text": "뜬금없는 밸런스 게임 던지기",
+          "text": "주제 정리하기",
           "scores": {
-            "spark": 1
+            "mediator": 2
           }
         },
         {
-          "text": "다 같이 할 수 있는 일 제안하기",
-          "scores": {
-            "wanderer": 1
-          }
-        },
-        {
-          "text": "잠깐 쉬어도 괜찮다고 생각하기",
-          "scores": {
-            "observer": 1
-          }
-        }
-      ]
-    },
-    {
-      "text": "친구 생일이 다가온다!",
-      "options": [
-        {
-          "text": "케이크와 시간, 역할을 정리",
-          "scores": {
-            "planner": 1
-          }
-        },
-        {
-          "text": "친구가 갖고 싶다던 선물 찾기",
-          "scores": {
-            "curator": 1
-          }
-        },
-        {
-          "text": "진심 담은 생일 메시지 준비",
-          "scores": {
-            "listener": 1
-          }
-        }
-      ]
-    },
-    {
-      "text": "친구의 긴 고민에 내가 보내는 답장은?",
-      "options": [
-        {
-          "text": "감정을 먼저 짚어 주는 다정한 문장",
-          "scores": {
-            "listener": 1
-          }
-        },
-        {
-          "text": "핵심을 짚는 짧고 신중한 한마디",
-          "scores": {
-            "observer": 1
-          }
-        },
-        {
-          "text": "도움이 될 만한 자료와 내 생각",
-          "scores": {
-            "curator": 1
-          }
-        }
-      ]
-    },
-    {
-      "text": "누군가 “주말에 뭐 해?”라고 물었다.",
-      "options": [
-        {
-          "text": "당장 재밌는 일을 제안한다",
+          "text": "번개 약속 제안",
           "scores": {
             "wanderer": 1
           }
         },
         {
-          "text": "언제 비는지 일정부터 확인한다",
+          "text": "잠깐 그대로 두기",
           "scores": {
-            "planner": 1
-          }
-        },
-        {
-          "text": "“너 기다리는데?” 하고 농담한다",
-          "scores": {
-            "spark": 1
+            "observer": 1
           }
         }
       ]
     },
     {
-      "text": "단톡방 공지를 맡게 된다면?",
+      "text": "친구 생일 준비는?",
       "options": [
         {
-          "text": "중요한 것만 한눈에 정리한다",
+          "text": "시간과 역할 정리",
           "scores": {
             "planner": 1
           }
         },
         {
-          "text": "빠진 정보가 없는지 조용히 확인한다",
+          "text": "선물 링크 찾기",
           "scores": {
-            "observer": 1
+            "curator": 1
           }
         },
         {
-          "text": "모두 괜찮은지 의견을 챙긴다",
+          "text": "축하 메시지 준비",
           "scores": {
             "listener": 1
           }
@@ -410,22 +397,91 @@
       ]
     },
     {
-      "text": "우리 단톡방에 남기고 싶은 것은?",
+      "text": "고민이 길어질 때 나는?",
       "options": [
         {
-          "text": "두고두고 웃을 수 있는 명대사",
+          "text": "입장 정리하기",
+          "scores": {
+            "mediator": 2
+          }
+        },
+        {
+          "text": "핵심 한 줄",
+          "scores": {
+            "observer": 1
+          }
+        },
+        {
+          "text": "도움 될 자료 찾기",
+          "scores": {
+            "curator": 1
+          }
+        }
+      ]
+    },
+    {
+      "text": "“주말에 뭐 해?”라는 말에?",
+      "options": [
+        {
+          "text": "지금 만나자",
+          "scores": {
+            "wanderer": 1
+          }
+        },
+        {
+          "text": "빈 시간 확인",
+          "scores": {
+            "planner": 1
+          }
+        },
+        {
+          "text": "농담부터 던지기",
+          "scores": {
+            "spark": 1
+          }
+        }
+      ]
+    },
+    {
+      "text": "단톡방 공지를 맡았다.",
+      "options": [
+        {
+          "text": "기록 남기기",
+          "scores": {
+            "archivist": 2
+          }
+        },
+        {
+          "text": "오탈자 확인",
+          "scores": {
+            "observer": 1
+          }
+        },
+        {
+          "text": "모두 괜찮나 확인",
+          "scores": {
+            "listener": 1
+          }
+        }
+      ]
+    },
+    {
+      "text": "단톡방에 남기고 싶은 건?",
+      "options": [
+        {
+          "text": "두고 볼 명대사",
           "scores": {
             "spark": 1
           }
         },
         {
-          "text": "같이 가 볼 곳이 가득한 목록",
+          "text": "맛집 리스트",
           "scores": {
             "curator": 1
           }
         },
         {
-          "text": "갑자기 떠나서 더 좋았던 추억",
+          "text": "즉흥 여행 추억",
           "scores": {
             "wanderer": 1
           }

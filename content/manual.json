@@ -6,7 +6,12 @@
   "results": [
     {
       "id": "quiet",
-      "title": "고요 충전형",
+      "code": "REST",
+      "keyword": "고요형",
+      "character": "모노",
+      "sprite": { "src": "./assets/manual-types.png", "index": 0, "columns": 2, "rows": 2 },
+      "accent": "#2457ff",
+      "title": "고요형 · 혼자 충전가",
       "symbol": "☾",
       "subtitle": "혼자만의 여백이 있어야 더 멀리 가는 사람.",
       "tags": [
@@ -31,7 +36,12 @@
     },
     {
       "id": "connect",
-      "title": "온기 충전형",
+      "code": "LINK",
+      "keyword": "연결형",
+      "character": "포포",
+      "sprite": { "src": "./assets/manual-types.png", "index": 1, "columns": 2, "rows": 2 },
+      "accent": "#ef476f",
+      "title": "연결형 · 온기 충전가",
       "symbol": "♡",
       "subtitle": "좋아하는 사람과 마음이 통할 때 에너지가 차올라요.",
       "tags": [
@@ -56,7 +66,12 @@
     },
     {
       "id": "explore",
-      "title": "새로움 충전형",
+      "code": "WILD",
+      "keyword": "탐험형",
+      "character": "노마",
+      "sprite": { "src": "./assets/manual-types.png", "index": 2, "columns": 2, "rows": 2 },
+      "accent": "#ff5a36",
+      "title": "탐험형 · 새로움 수집가",
       "symbol": "↗",
       "subtitle": "작은 변화 하나에도 일상이 선명해지는 사람.",
       "tags": [
@@ -81,7 +96,12 @@
     },
     {
       "id": "order",
-      "title": "차근차근 충전형",
+      "code": "DONE",
+      "keyword": "완료형",
+      "character": "체키",
+      "sprite": { "src": "./assets/manual-types.png", "index": 3, "columns": 2, "rows": 2 },
+      "accent": "#00a878",
+      "title": "완료형 · 차근차근 설계자",
       "symbol": "▦",
       "subtitle": "작은 완료를 모아 나만의 단단한 하루를 만들어요.",
       "tags": [
@@ -103,32 +123,84 @@
           "여기까지 잘했어. 다음 한 걸음만 생각하자."
         ]
       ]
+    },
+    {
+      "id": "sensory",
+      "code": "SENSE",
+      "keyword": "감각형",
+      "character": "소소",
+      "symbol": "◌",
+      "sprite": { "src": "./assets/extra-types.png", "index": 2, "columns": 2, "rows": 2 },
+      "accent": "#ffc928",
+      "title": "감각형 · 취향 충전가",
+      "subtitle": "좋은 음악과 맛있는 한입으로 기분을 바꾸는 사람.",
+      "tags": ["오감만족", "취향확실", "작은행복"],
+      "traits": [["충전 방법", "좋아하는 음악과 간식으로 감각을 깨우기."], ["사용 시 주의", "취향을 챙기느라 해야 할 일을 너무 미루지 않기."], ["나를 움직이는 말", "좋은 기분부터 만들고 가볍게 시작하자."]]
+    },
+    {
+      "id": "creative",
+      "code": "MAKE",
+      "keyword": "창작형",
+      "character": "마루",
+      "symbol": "✎",
+      "sprite": { "src": "./assets/extra-types.png", "index": 3, "columns": 2, "rows": 2 },
+      "accent": "#ef476f",
+      "title": "창작형 · 아이디어 충전가",
+      "subtitle": "뭔가 만들고 꾸밀 때 머릿속이 맑아지는 사람.",
+      "tags": ["손으로만들기", "아이디어", "내스타일"],
+      "traits": [["충전 방법", "낙서든 요리든 내 손으로 결과 하나 만들기."], ["사용 시 주의", "아이디어가 많아도 하나씩 끝까지 데려가기."], ["나를 움직이는 말", "완벽하지 않아도 네 방식이면 충분해."]]
+    },
+    {
+      "id": "nature",
+      "code": "GREEN",
+      "keyword": "자연형",
+      "character": "초록",
+      "symbol": "♧",
+      "sprite": { "src": "./assets/manual-more-types.png", "index": 0, "columns": 2, "rows": 1 },
+      "accent": "#00a878",
+      "title": "자연형 · 바깥 충전가",
+      "subtitle": "햇빛과 바람만 있어도 머리가 환기되는 사람.",
+      "tags": ["산책필수", "바깥공기", "느린호흡"],
+      "traits": [["충전 방법", "잠깐이라도 밖으로 나가 햇빛과 바람 만나기."], ["사용 시 주의", "날씨가 궂을 때를 위한 실내 산책로도 마련하기."], ["나를 움직이는 말", "일단 신발 신고 한 바퀴만 돌아보자."]]
+    },
+    {
+      "id": "play",
+      "code": "PLAY",
+      "keyword": "놀이형",
+      "character": "팝",
+      "symbol": "★",
+      "sprite": { "src": "./assets/manual-more-types.png", "index": 1, "columns": 2, "rows": 1 },
+      "accent": "#ff5a36",
+      "title": "놀이형 · 재미 충전가",
+      "subtitle": "웃고 놀다 보면 어느새 다시 움직일 힘이 생겨요.",
+      "tags": ["재미우선", "승부욕한스푼", "웃음충전"],
+      "traits": [["충전 방법", "짧은 게임이나 엉뚱한 놀이로 머리 식히기."], ["사용 시 주의", "한 판만 하려다 밤이 되지 않게 알람 맞추기."], ["나를 움직이는 말", "재미있게 끝내면 그것도 좋은 하루야."]]
     }
   ],
   "questions": [
     {
-      "text": "완전히 자유로운 오후가 생겼다.",
+      "text": "뜻밖의 빈 시간! 나는?",
       "options": [
         {
-          "text": "집에서 좋아하는 것만 하며 쉬기",
+          "text": "침대와 한 몸",
           "scores": {
             "quiet": 1
           }
         },
         {
-          "text": "보고 싶던 친구에게 연락하기",
+          "text": "친구에게 연락",
           "scores": {
             "connect": 1
           }
         },
         {
-          "text": "처음 가는 동네 산책하기",
+          "text": "동네 탐험",
           "scores": {
             "explore": 1
           }
         },
         {
-          "text": "미뤄 둔 작은 일을 마무리하기",
+          "text": "할 일 하나 끝내기",
           "scores": {
             "order": 1
           }
@@ -136,204 +208,204 @@
       ]
     },
     {
-      "text": "머릿속이 복잡할 때 가장 필요한 것은?",
+      "text": "기분 전환 버튼은?",
       "options": [
         {
-          "text": "방해받지 않는 시간",
+          "text": "음악 + 간식",
           "scores": {
-            "quiet": 1
+            "sensory": 1
           }
         },
         {
-          "text": "솔직하게 이야기할 사람",
+          "text": "뭐라도 만들기",
           "scores": {
-            "connect": 1
+            "creative": 1
           }
         },
         {
-          "text": "분위기를 바꿔 줄 새로운 자극",
+          "text": "밖으로 산책",
           "scores": {
-            "explore": 1
+            "nature": 1
           }
         },
         {
-          "text": "눈으로 확인할 수 있는 정리",
+          "text": "게임 한 판",
           "scores": {
-            "order": 1
+            "play": 1
           }
         }
       ]
     },
     {
-      "text": "새로운 일을 시작할 때 나는?",
+      "text": "주말 시작 버튼은?",
       "options": [
         {
-          "text": "혼자 충분히 생각해 본다",
+          "text": "혼자 느긋하게",
           "scores": {
             "quiet": 1
           }
         },
         {
-          "text": "누군가와 아이디어를 나눈다",
+          "text": "만들기부터",
           "scores": {
-            "connect": 1
+            "creative": 1
           }
         },
         {
-          "text": "작게라도 바로 해 본다",
+          "text": "처음 가는 곳",
           "scores": {
             "explore": 1
           }
         },
         {
-          "text": "할 일을 순서대로 적는다",
+          "text": "재밌는 약속",
           "scores": {
-            "order": 1
+            "play": 1
           }
         }
       ]
     },
     {
-      "text": "가장 기분 좋은 칭찬은?",
+      "text": "듣고 싶은 한마디는?",
       "options": [
         {
-          "text": "네 생각은 깊이가 있어",
-          "scores": {
-            "quiet": 1
-          }
-        },
-        {
-          "text": "너랑 있으면 마음이 편해",
+          "text": "같이 하자",
           "scores": {
             "connect": 1
           }
         },
         {
-          "text": "너 덕분에 새로운 걸 해 봤어",
+          "text": "믿고 맡길게",
           "scores": {
-            "explore": 1
+            "order": 1
           }
         },
         {
-          "text": "너한테 맡기면 든든해",
+          "text": "네 취향 최고",
           "scores": {
-            "order": 1
+            "sensory": 1
+          }
+        },
+        {
+          "text": "바람 쐬러 갈래",
+          "scores": {
+            "nature": 1
           }
         }
       ]
     },
     {
-      "text": "휴대폰 배경화면을 고른다면?",
+      "text": "내 폰 배경은?",
       "options": [
         {
-          "text": "차분하고 여백 있는 풍경",
+          "text": "여백 많은 풍경",
           "scores": {
             "quiet": 1
           }
         },
         {
-          "text": "소중한 사람과 찍은 사진",
+          "text": "좋아하는 색과 사진",
           "scores": {
-            "connect": 1
+            "sensory": 1
           }
         },
         {
-          "text": "최근 푹 빠진 독특한 이미지",
+          "text": "낯선 도시",
           "scores": {
             "explore": 1
           }
         },
         {
-          "text": "간결한 달력이나 목표 문구",
+          "text": "초록 가득",
           "scores": {
-            "order": 1
+            "nature": 1
           }
         }
       ]
     },
     {
-      "text": "계획이 갑자기 취소됐을 때?",
+      "text": "약속이 취소됐다!",
       "options": [
         {
-          "text": "오히려 혼자 쉴 시간이 생겼네",
-          "scores": {
-            "quiet": 1
-          }
-        },
-        {
-          "text": "다른 친구와 잠깐 통화할까",
+          "text": "친구에게 전화",
           "scores": {
             "connect": 1
           }
         },
         {
-          "text": "즉흥적으로 다른 곳을 가 볼까",
+          "text": "미뤄 둔 취미",
           "scores": {
-            "explore": 1
+            "creative": 1
           }
         },
         {
-          "text": "빈 시간에 할 일을 다시 배치",
+          "text": "할 일 재배치",
           "scores": {
             "order": 1
+          }
+        },
+        {
+          "text": "게임이나 영상",
+          "scores": {
+            "play": 1
           }
         }
       ]
     },
     {
-      "text": "내가 오래 즐기는 취미는?",
+      "text": "지치면 손이 가는 건?",
       "options": [
         {
-          "text": "혼자 깊이 몰입하는 활동",
+          "text": "이어폰 끄기",
           "scores": {
             "quiet": 1
           }
         },
         {
-          "text": "사람들과 함께하는 활동",
-          "scores": {
-            "connect": 1
-          }
-        },
-        {
-          "text": "매번 다른 것을 시도하는 활동",
-          "scores": {
-            "explore": 1
-          }
-        },
-        {
-          "text": "조금씩 실력이 느는 활동",
+          "text": "체크리스트",
           "scores": {
             "order": 1
+          }
+        },
+        {
+          "text": "산책화",
+          "scores": {
+            "nature": 1
+          }
+        },
+        {
+          "text": "게임패드",
+          "scores": {
+            "play": 1
           }
         }
       ]
     },
     {
-      "text": "하루 끝에 가장 만족스러운 순간은?",
+      "text": "하루에 하나 챙긴다면?",
       "options": [
         {
-          "text": "조용히 내 마음을 돌아볼 때",
-          "scores": {
-            "quiet": 1
-          }
-        },
-        {
-          "text": "따뜻한 대화를 나누었을 때",
+          "text": "친구와 대화",
           "scores": {
             "connect": 1
           }
         },
         {
-          "text": "처음 해 본 일이 하나 생겼을 때",
+          "text": "맛있는 한입",
           "scores": {
-            "explore": 1
+            "sensory": 1
           }
         },
         {
-          "text": "오늘 할 일에 완료 표시할 때",
+          "text": "작은 결과물",
           "scores": {
-            "order": 1
+            "creative": 1
+          }
+        },
+        {
+          "text": "새로운 장면",
+          "scores": {
+            "explore": 1
           }
         }
       ]
